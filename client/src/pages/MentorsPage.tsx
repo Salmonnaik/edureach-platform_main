@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { mentorsContent } from "../data/content";
-import { Mail, Phone, Calendar, Star, Users, Award, BookOpen } from "lucide-react";
+import { Mail, Calendar, Star, Users, Award, BookOpen } from "lucide-react";
 
 export default function MentorsPage() {
   const [selectedMentor, setSelectedMentor] = useState<number | null>(null);
