@@ -1,0 +1,14 @@
+{
+  "name": "edureach-platform-backend",
+  "version": "1.0.0",
+  "description": "EduReach Platform Backend",
+  "main": "server/src/server.ts",
+  "scripts": {
+    "start": "cd server && npm start",
+    "build": "cd server && npm run build",
+    "install": "cd server && npm install"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
